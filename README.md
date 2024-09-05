@@ -8,12 +8,7 @@ Secure File Sharing App is a comprehensive solution for secure file exchange pla
 - Password Protection: Adds an additional layer of security by allowing the sender to set a password on a file, which the recipient must enter to download or view the file, thereby preventing unauthorized access.
 - Input Sanitization: Protects the application from various injection attacks by sanitizing user inputs, thus maintaining the integrity and security of the database.
 - Brute Force Attack Protection: Implements sophisticated rate-limiting and account lockout mechanisms to thwart attackers attempting to guess passwords through repeated attempts.
-- Protection Against NoSQL Injections and XSS Attacks: Employs input validation and output encoding strategies to defend against NoSQL injection and Cross-Site Scripting (XSS) vulnerabilities, ensuring the application's resilience against these common web attack vectors.
+- Protection Against NoSQL Injections and other Attacks: Employs input validation and output encoding strategies to defend against NoSQL injection and Cross-Site Scripting (XSS) vulnerabilities, ensuring the application's resilience against these common web attack vectors.
 - Comprehensive Security Practices: Integrates a variety of security measures, including secure headers, HTTPS enforcement, and content security policies, to mitigate risks and protect against a wide range of vulnerabilities.
 
-# Technologies Used
-- MongoDB: For a flexible, scalable database.
-- Express.js: To handle server-side logic and RESTful API endpoints.
-- React: For building a dynamic and responsive user interface.
-- Node.js: As the runtime environment for executing JavaScript on the server side.
 
